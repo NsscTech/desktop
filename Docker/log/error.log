@@ -1,0 +1,1102 @@
+2021/06/30 22:54:42 [notice] 1#1: using the "epoll" event method
+2021/06/30 22:54:42 [notice] 1#1: nginx/1.21.0
+2021/06/30 22:54:42 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/30 22:54:42 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/06/30 22:54:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/30 22:54:42 [notice] 1#1: start worker processes
+2021/06/30 22:54:42 [notice] 1#1: start worker process 32
+2021/06/30 22:54:42 [notice] 1#1: start worker process 33
+2021/06/30 22:54:42 [notice] 1#1: start worker process 34
+2021/06/30 22:54:42 [notice] 1#1: start worker process 35
+2021/06/30 22:54:42 [notice] 1#1: start worker process 36
+2021/06/30 22:54:42 [notice] 1#1: start worker process 37
+2021/06/30 22:54:42 [notice] 1#1: start worker process 38
+2021/06/30 22:54:42 [notice] 1#1: start worker process 39
+2021/06/30 22:56:20 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 22:56:42 [error] 33#33: *4 open() "/usr/share/nginx/html/ops/ops" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /ops/ops HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 22:57:13 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 22:57:46 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/"
+2021/06/30 22:58:22 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 22:58:33 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/"
+2021/06/30 22:58:35 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/chapter1/"
+2021/06/30 22:58:37 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/"
+2021/06/30 22:58:38 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 22:58:40 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/"
+2021/06/30 22:58:41 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/chapter1/syllabus/"
+2021/06/30 22:58:43 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/docs/chapter1/"
+2021/06/30 22:58:54 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/06/30 22:58:56 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 22:59:16 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:10:41 [error] 32#32: *12 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:18:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/30 23:18:32 [notice] 32#32: gracefully shutting down
+2021/06/30 23:18:32 [notice] 33#33: gracefully shutting down
+2021/06/30 23:18:32 [notice] 33#33: exiting
+2021/06/30 23:18:32 [notice] 34#34: gracefully shutting down
+2021/06/30 23:18:32 [notice] 36#36: gracefully shutting down
+2021/06/30 23:18:32 [notice] 38#38: gracefully shutting down
+2021/06/30 23:18:32 [notice] 37#37: gracefully shutting down
+2021/06/30 23:18:32 [notice] 35#35: gracefully shutting down
+2021/06/30 23:18:32 [notice] 39#39: gracefully shutting down
+2021/06/30 23:18:32 [notice] 32#32: exiting
+2021/06/30 23:18:32 [notice] 33#33: exit
+2021/06/30 23:18:32 [notice] 34#34: exiting
+2021/06/30 23:18:32 [notice] 36#36: exiting
+2021/06/30 23:18:32 [notice] 38#38: exiting
+2021/06/30 23:18:32 [notice] 37#37: exiting
+2021/06/30 23:18:32 [notice] 35#35: exiting
+2021/06/30 23:18:32 [notice] 39#39: exiting
+2021/06/30 23:18:32 [notice] 32#32: exit
+2021/06/30 23:18:32 [notice] 34#34: exit
+2021/06/30 23:18:32 [notice] 36#36: exit
+2021/06/30 23:18:32 [notice] 38#38: exit
+2021/06/30 23:18:32 [notice] 37#37: exit
+2021/06/30 23:18:32 [notice] 35#35: exit
+2021/06/30 23:18:32 [notice] 39#39: exit
+2021/06/30 23:18:32 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/06/30 23:18:32 [notice] 1#1: worker process 32 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: worker process 35 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: worker process 36 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: worker process 38 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: worker process 39 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/30 23:18:32 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/06/30 23:18:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/30 23:18:32 [notice] 1#1: worker process 33 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: worker process 34 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: worker process 37 exited with code 0
+2021/06/30 23:18:32 [notice] 1#1: exit
+2021/06/30 23:18:33 [notice] 1#1: using the "epoll" event method
+2021/06/30 23:18:33 [notice] 1#1: nginx/1.21.0
+2021/06/30 23:18:33 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/30 23:18:33 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/06/30 23:18:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/30 23:18:33 [notice] 1#1: start worker processes
+2021/06/30 23:18:33 [notice] 1#1: start worker process 31
+2021/06/30 23:18:33 [notice] 1#1: start worker process 32
+2021/06/30 23:18:33 [notice] 1#1: start worker process 33
+2021/06/30 23:18:33 [notice] 1#1: start worker process 34
+2021/06/30 23:18:33 [notice] 1#1: start worker process 35
+2021/06/30 23:18:33 [notice] 1#1: start worker process 36
+2021/06/30 23:18:33 [notice] 1#1: start worker process 37
+2021/06/30 23:18:33 [notice] 1#1: start worker process 38
+2021/06/30 23:18:38 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:18:40 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/build/"
+2021/06/30 23:18:41 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:18:42 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/build/"
+2021/06/30 23:19:03 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/06/30 23:19:05 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:40:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/30 23:40:15 [notice] 31#31: gracefully shutting down
+2021/06/30 23:40:15 [notice] 32#32: gracefully shutting down
+2021/06/30 23:40:15 [notice] 33#33: gracefully shutting down
+2021/06/30 23:40:15 [notice] 33#33: exiting
+2021/06/30 23:40:15 [notice] 34#34: gracefully shutting down
+2021/06/30 23:40:15 [notice] 35#35: gracefully shutting down
+2021/06/30 23:40:15 [notice] 36#36: gracefully shutting down
+2021/06/30 23:40:15 [notice] 37#37: gracefully shutting down
+2021/06/30 23:40:15 [notice] 38#38: gracefully shutting down
+2021/06/30 23:40:15 [notice] 31#31: exiting
+2021/06/30 23:40:15 [notice] 32#32: exiting
+2021/06/30 23:40:15 [notice] 33#33: exit
+2021/06/30 23:40:15 [notice] 34#34: exiting
+2021/06/30 23:40:15 [notice] 35#35: exiting
+2021/06/30 23:40:15 [notice] 36#36: exiting
+2021/06/30 23:40:15 [notice] 37#37: exiting
+2021/06/30 23:40:15 [notice] 38#38: exiting
+2021/06/30 23:40:15 [notice] 31#31: exit
+2021/06/30 23:40:15 [notice] 32#32: exit
+2021/06/30 23:40:15 [notice] 34#34: exit
+2021/06/30 23:40:15 [notice] 35#35: exit
+2021/06/30 23:40:15 [notice] 36#36: exit
+2021/06/30 23:40:15 [notice] 37#37: exit
+2021/06/30 23:40:15 [notice] 38#38: exit
+2021/06/30 23:40:15 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/30 23:40:15 [notice] 1#1: worker process 31 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: worker process 34 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: worker process 38 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/30 23:40:15 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/06/30 23:40:15 [notice] 1#1: worker process 32 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: worker process 36 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/30 23:40:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/30 23:40:15 [notice] 1#1: worker process 33 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/30 23:40:15 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/06/30 23:40:15 [notice] 1#1: worker process 35 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/30 23:40:15 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/06/30 23:40:15 [notice] 1#1: worker process 37 exited with code 0
+2021/06/30 23:40:15 [notice] 1#1: exit
+2021/06/30 23:40:16 [notice] 1#1: using the "epoll" event method
+2021/06/30 23:40:16 [notice] 1#1: nginx/1.21.0
+2021/06/30 23:40:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/30 23:40:16 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/06/30 23:40:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/30 23:40:16 [notice] 1#1: start worker processes
+2021/06/30 23:40:16 [notice] 1#1: start worker process 31
+2021/06/30 23:40:16 [notice] 1#1: start worker process 32
+2021/06/30 23:40:16 [notice] 1#1: start worker process 33
+2021/06/30 23:40:16 [notice] 1#1: start worker process 34
+2021/06/30 23:40:16 [notice] 1#1: start worker process 35
+2021/06/30 23:40:16 [notice] 1#1: start worker process 36
+2021/06/30 23:40:16 [notice] 1#1: start worker process 37
+2021/06/30 23:40:16 [notice] 1#1: start worker process 38
+2021/06/30 23:40:19 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:40:20 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:40:20 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:40:21 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/build/"
+2021/06/30 23:40:56 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:40:58 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/build/"
+2021/06/30 23:40:59 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:41:32 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:41:33 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:41:33 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:41:33 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/06/30 23:41:34 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:03:11 [error] 31#31: *6 open() "/usr/share/nginx/html/ops/ops" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /ops/ops HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:03:16 [error] 31#31: *8 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:03:45 [error] 31#31: *8 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:03:46 [error] 31#31: *8 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/01 00:06:16 [notice] 31#31: gracefully shutting down
+2021/07/01 00:06:16 [notice] 32#32: gracefully shutting down
+2021/07/01 00:06:16 [notice] 33#33: gracefully shutting down
+2021/07/01 00:06:16 [notice] 34#34: gracefully shutting down
+2021/07/01 00:06:16 [notice] 35#35: gracefully shutting down
+2021/07/01 00:06:16 [notice] 36#36: gracefully shutting down
+2021/07/01 00:06:16 [notice] 37#37: gracefully shutting down
+2021/07/01 00:06:16 [notice] 38#38: gracefully shutting down
+2021/07/01 00:06:16 [notice] 31#31: exiting
+2021/07/01 00:06:16 [notice] 32#32: exiting
+2021/07/01 00:06:16 [notice] 33#33: exiting
+2021/07/01 00:06:16 [notice] 34#34: exiting
+2021/07/01 00:06:16 [notice] 35#35: exiting
+2021/07/01 00:06:16 [notice] 36#36: exiting
+2021/07/01 00:06:16 [notice] 37#37: exiting
+2021/07/01 00:06:16 [notice] 38#38: exiting
+2021/07/01 00:06:16 [notice] 31#31: exit
+2021/07/01 00:06:16 [notice] 32#32: exit
+2021/07/01 00:06:16 [notice] 33#33: exit
+2021/07/01 00:06:16 [notice] 34#34: exit
+2021/07/01 00:06:16 [notice] 35#35: exit
+2021/07/01 00:06:16 [notice] 36#36: exit
+2021/07/01 00:06:16 [notice] 37#37: exit
+2021/07/01 00:06:16 [notice] 38#38: exit
+2021/07/01 00:06:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/07/01 00:06:16 [notice] 1#1: worker process 32 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:06:16 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/07/01 00:06:16 [notice] 1#1: worker process 31 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: worker process 36 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:06:16 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/01 00:06:16 [notice] 1#1: worker process 38 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:06:16 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/01 00:06:16 [notice] 1#1: worker process 33 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: worker process 37 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:06:16 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/01 00:06:16 [notice] 1#1: worker process 34 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: worker process 35 exited with code 0
+2021/07/01 00:06:16 [notice] 1#1: exit
+2021/07/01 00:06:17 [notice] 1#1: using the "epoll" event method
+2021/07/01 00:06:17 [notice] 1#1: nginx/1.21.0
+2021/07/01 00:06:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/01 00:06:17 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 00:06:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 00:06:17 [notice] 1#1: start worker processes
+2021/07/01 00:06:17 [notice] 1#1: start worker process 31
+2021/07/01 00:06:17 [notice] 1#1: start worker process 32
+2021/07/01 00:06:17 [notice] 1#1: start worker process 33
+2021/07/01 00:06:17 [notice] 1#1: start worker process 34
+2021/07/01 00:06:17 [notice] 1#1: start worker process 35
+2021/07/01 00:06:17 [notice] 1#1: start worker process 36
+2021/07/01 00:06:17 [notice] 1#1: start worker process 37
+2021/07/01 00:06:17 [notice] 1#1: start worker process 38
+2021/07/01 00:06:19 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:20 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:20 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:21 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:22 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:22 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:23 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:23 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:24 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:24 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:24 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:25 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:25 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:26 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:26 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:27 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:28 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:28 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:06:30 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:32 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:06:33 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/syllabus/"
+2021/07/01 00:06:34 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:06:34 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:06:35 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:07:27 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:07:28 [error] 32#32: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:07:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/01 00:07:42 [notice] 31#31: gracefully shutting down
+2021/07/01 00:07:42 [notice] 32#32: gracefully shutting down
+2021/07/01 00:07:42 [notice] 33#33: gracefully shutting down
+2021/07/01 00:07:42 [notice] 35#35: gracefully shutting down
+2021/07/01 00:07:42 [notice] 36#36: gracefully shutting down
+2021/07/01 00:07:42 [notice] 38#38: gracefully shutting down
+2021/07/01 00:07:42 [notice] 37#37: gracefully shutting down
+2021/07/01 00:07:42 [notice] 34#34: gracefully shutting down
+2021/07/01 00:07:42 [notice] 31#31: exiting
+2021/07/01 00:07:42 [notice] 32#32: exiting
+2021/07/01 00:07:42 [notice] 33#33: exiting
+2021/07/01 00:07:42 [notice] 35#35: exiting
+2021/07/01 00:07:42 [notice] 36#36: exiting
+2021/07/01 00:07:42 [notice] 38#38: exiting
+2021/07/01 00:07:42 [notice] 37#37: exiting
+2021/07/01 00:07:42 [notice] 34#34: exiting
+2021/07/01 00:07:42 [notice] 31#31: exit
+2021/07/01 00:07:42 [notice] 32#32: exit
+2021/07/01 00:07:42 [notice] 33#33: exit
+2021/07/01 00:07:42 [notice] 35#35: exit
+2021/07/01 00:07:42 [notice] 36#36: exit
+2021/07/01 00:07:42 [notice] 38#38: exit
+2021/07/01 00:07:42 [notice] 37#37: exit
+2021/07/01 00:07:42 [notice] 34#34: exit
+2021/07/01 00:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/07/01 00:07:42 [notice] 1#1: worker process 35 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: worker process 36 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: worker process 38 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/01 00:07:42 [notice] 1#1: worker process 32 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: worker process 37 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/01 00:07:42 [notice] 1#1: worker process 33 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:07:42 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/07/01 00:07:42 [notice] 1#1: worker process 31 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: worker process 34 exited with code 0
+2021/07/01 00:07:42 [notice] 1#1: exit
+2021/07/01 00:07:43 [notice] 1#1: using the "epoll" event method
+2021/07/01 00:07:43 [notice] 1#1: nginx/1.21.0
+2021/07/01 00:07:43 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/01 00:07:43 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 00:07:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 00:07:43 [notice] 1#1: start worker processes
+2021/07/01 00:07:43 [notice] 1#1: start worker process 31
+2021/07/01 00:07:43 [notice] 1#1: start worker process 32
+2021/07/01 00:07:43 [notice] 1#1: start worker process 33
+2021/07/01 00:07:43 [notice] 1#1: start worker process 34
+2021/07/01 00:07:43 [notice] 1#1: start worker process 35
+2021/07/01 00:07:43 [notice] 1#1: start worker process 36
+2021/07/01 00:07:43 [notice] 1#1: start worker process 37
+2021/07/01 00:07:43 [notice] 1#1: start worker process 38
+2021/07/01 00:07:47 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:07:47 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:07:54 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/syllabus/"
+2021/07/01 00:07:55 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:07:56 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/syllabus/"
+2021/07/01 00:07:57 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:08:12 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:08:13 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/syllabus/"
+2021/07/01 00:08:24 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:08:25 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:08:26 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:08:26 [error] 31#31: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:17:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/01 00:17:11 [notice] 31#31: gracefully shutting down
+2021/07/01 00:17:11 [notice] 32#32: gracefully shutting down
+2021/07/01 00:17:11 [notice] 33#33: gracefully shutting down
+2021/07/01 00:17:11 [notice] 34#34: gracefully shutting down
+2021/07/01 00:17:11 [notice] 35#35: gracefully shutting down
+2021/07/01 00:17:11 [notice] 36#36: gracefully shutting down
+2021/07/01 00:17:11 [notice] 37#37: gracefully shutting down
+2021/07/01 00:17:11 [notice] 38#38: gracefully shutting down
+2021/07/01 00:17:11 [notice] 31#31: exiting
+2021/07/01 00:17:11 [notice] 32#32: exiting
+2021/07/01 00:17:11 [notice] 33#33: exiting
+2021/07/01 00:17:11 [notice] 34#34: exiting
+2021/07/01 00:17:11 [notice] 35#35: exiting
+2021/07/01 00:17:11 [notice] 36#36: exiting
+2021/07/01 00:17:11 [notice] 37#37: exiting
+2021/07/01 00:17:11 [notice] 38#38: exiting
+2021/07/01 00:17:11 [notice] 31#31: exit
+2021/07/01 00:17:11 [notice] 32#32: exit
+2021/07/01 00:17:11 [notice] 33#33: exit
+2021/07/01 00:17:11 [notice] 34#34: exit
+2021/07/01 00:17:11 [notice] 35#35: exit
+2021/07/01 00:17:11 [notice] 36#36: exit
+2021/07/01 00:17:11 [notice] 37#37: exit
+2021/07/01 00:17:11 [notice] 38#38: exit
+2021/07/01 00:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/07/01 00:17:11 [notice] 1#1: worker process 31 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/01 00:17:11 [notice] 1#1: worker process 33 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: worker process 34 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: worker process 36 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/01 00:17:11 [notice] 1#1: worker process 35 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: worker process 38 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:17:11 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/01 00:17:11 [notice] 1#1: worker process 32 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: worker process 37 exited with code 0
+2021/07/01 00:17:11 [notice] 1#1: exit
+2021/07/01 00:17:12 [notice] 1#1: using the "epoll" event method
+2021/07/01 00:17:12 [notice] 1#1: nginx/1.21.0
+2021/07/01 00:17:12 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/01 00:17:12 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 00:17:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 00:17:12 [notice] 1#1: start worker processes
+2021/07/01 00:17:12 [notice] 1#1: start worker process 32
+2021/07/01 00:17:12 [notice] 1#1: start worker process 33
+2021/07/01 00:17:12 [notice] 1#1: start worker process 34
+2021/07/01 00:17:12 [notice] 1#1: start worker process 35
+2021/07/01 00:17:12 [notice] 1#1: start worker process 36
+2021/07/01 00:17:12 [notice] 1#1: start worker process 37
+2021/07/01 00:17:12 [notice] 1#1: start worker process 38
+2021/07/01 00:17:12 [notice] 1#1: start worker process 39
+2021/07/01 00:17:13 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:17:17 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:17:19 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/"
+2021/07/01 00:17:19 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/ops/faq/"
+2021/07/01 00:17:22 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:17:24 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:17:24 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:17:25 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:17:29 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:17:30 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:17:33 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:17:33 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/hugo/"
+2021/07/01 00:17:35 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:17:36 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/hugo/"
+2021/07/01 00:17:37 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:17:39 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/hugo/"
+2021/07/01 00:18:22 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:22:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/01 00:22:14 [notice] 32#32: gracefully shutting down
+2021/07/01 00:22:14 [notice] 33#33: gracefully shutting down
+2021/07/01 00:22:14 [notice] 34#34: gracefully shutting down
+2021/07/01 00:22:14 [notice] 35#35: gracefully shutting down
+2021/07/01 00:22:14 [notice] 36#36: gracefully shutting down
+2021/07/01 00:22:14 [notice] 37#37: gracefully shutting down
+2021/07/01 00:22:14 [notice] 38#38: gracefully shutting down
+2021/07/01 00:22:14 [notice] 39#39: gracefully shutting down
+2021/07/01 00:22:14 [notice] 32#32: exiting
+2021/07/01 00:22:14 [notice] 33#33: exiting
+2021/07/01 00:22:14 [notice] 34#34: exiting
+2021/07/01 00:22:14 [notice] 35#35: exiting
+2021/07/01 00:22:14 [notice] 36#36: exiting
+2021/07/01 00:22:14 [notice] 37#37: exiting
+2021/07/01 00:22:14 [notice] 38#38: exiting
+2021/07/01 00:22:14 [notice] 39#39: exiting
+2021/07/01 00:22:14 [notice] 32#32: exit
+2021/07/01 00:22:14 [notice] 33#33: exit
+2021/07/01 00:22:14 [notice] 34#34: exit
+2021/07/01 00:22:14 [notice] 35#35: exit
+2021/07/01 00:22:14 [notice] 36#36: exit
+2021/07/01 00:22:14 [notice] 37#37: exit
+2021/07/01 00:22:14 [notice] 38#38: exit
+2021/07/01 00:22:14 [notice] 39#39: exit
+2021/07/01 00:22:14 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/07/01 00:22:14 [notice] 1#1: worker process 34 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: worker process 37 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:22:14 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/01 00:22:14 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/07/01 00:22:14 [notice] 1#1: worker process 32 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: worker process 33 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: worker process 35 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: worker process 36 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:22:14 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/01 00:22:14 [notice] 1#1: worker process 38 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:22:14 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2021/07/01 00:22:14 [notice] 1#1: worker process 39 exited with code 0
+2021/07/01 00:22:14 [notice] 1#1: exit
+2021/07/01 00:22:15 [notice] 1#1: using the "epoll" event method
+2021/07/01 00:22:15 [notice] 1#1: nginx/1.21.0
+2021/07/01 00:22:15 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/01 00:22:15 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 00:22:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 00:22:15 [notice] 1#1: start worker processes
+2021/07/01 00:22:15 [notice] 1#1: start worker process 31
+2021/07/01 00:22:15 [notice] 1#1: start worker process 32
+2021/07/01 00:22:15 [notice] 1#1: start worker process 33
+2021/07/01 00:22:15 [notice] 1#1: start worker process 34
+2021/07/01 00:22:15 [notice] 1#1: start worker process 35
+2021/07/01 00:22:15 [notice] 1#1: start worker process 36
+2021/07/01 00:22:15 [notice] 1#1: start worker process 37
+2021/07/01 00:22:15 [notice] 1#1: start worker process 38
+2021/07/01 00:22:17 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:22:18 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:22:18 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:22:19 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:22:20 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:22:21 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:25:06 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:08 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:08 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:09 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:10 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:10 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:11 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:11 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:12 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:13 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:13 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:14 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:15 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:15 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:17 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:25:18 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:25:19 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:21 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:25:23 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:25:24 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:25:25 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:25:29 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/deploy/"
+2021/07/01 00:25:30 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/faq/"
+2021/07/01 00:25:31 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:25:32 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:25:32 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:25:33 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:25:33 [error] 31#31: *10 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:33:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/01 00:33:11 [notice] 31#31: gracefully shutting down
+2021/07/01 00:33:11 [notice] 32#32: gracefully shutting down
+2021/07/01 00:33:11 [notice] 33#33: gracefully shutting down
+2021/07/01 00:33:11 [notice] 34#34: gracefully shutting down
+2021/07/01 00:33:11 [notice] 35#35: gracefully shutting down
+2021/07/01 00:33:11 [notice] 36#36: gracefully shutting down
+2021/07/01 00:33:11 [notice] 37#37: gracefully shutting down
+2021/07/01 00:33:11 [notice] 38#38: gracefully shutting down
+2021/07/01 00:33:11 [notice] 31#31: exiting
+2021/07/01 00:33:11 [notice] 32#32: exiting
+2021/07/01 00:33:11 [notice] 33#33: exiting
+2021/07/01 00:33:11 [notice] 34#34: exiting
+2021/07/01 00:33:11 [notice] 35#35: exiting
+2021/07/01 00:33:11 [notice] 36#36: exiting
+2021/07/01 00:33:11 [notice] 37#37: exiting
+2021/07/01 00:33:11 [notice] 38#38: exiting
+2021/07/01 00:33:11 [notice] 31#31: exit
+2021/07/01 00:33:11 [notice] 32#32: exit
+2021/07/01 00:33:11 [notice] 33#33: exit
+2021/07/01 00:33:11 [notice] 34#34: exit
+2021/07/01 00:33:11 [notice] 35#35: exit
+2021/07/01 00:33:11 [notice] 36#36: exit
+2021/07/01 00:33:11 [notice] 37#37: exit
+2021/07/01 00:33:11 [notice] 38#38: exit
+2021/07/01 00:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/07/01 00:33:11 [notice] 1#1: worker process 36 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/01 00:33:11 [notice] 1#1: worker process 31 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: worker process 37 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: worker process 38 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/01 00:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/01 00:33:11 [notice] 1#1: worker process 32 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: worker process 33 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: worker process 34 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/01 00:33:11 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/01 00:33:11 [notice] 1#1: worker process 35 exited with code 0
+2021/07/01 00:33:11 [notice] 1#1: exit
+2021/07/01 00:33:41 [notice] 1#1: using the "epoll" event method
+2021/07/01 00:33:41 [notice] 1#1: nginx/1.21.0
+2021/07/01 00:33:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/01 00:33:41 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 00:33:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 00:33:41 [notice] 1#1: start worker processes
+2021/07/01 00:33:41 [notice] 1#1: start worker process 31
+2021/07/01 00:33:41 [notice] 1#1: start worker process 32
+2021/07/01 00:33:41 [notice] 1#1: start worker process 33
+2021/07/01 00:33:41 [notice] 1#1: start worker process 34
+2021/07/01 00:33:41 [notice] 1#1: start worker process 35
+2021/07/01 00:33:41 [notice] 1#1: start worker process 36
+2021/07/01 00:33:41 [notice] 1#1: start worker process 37
+2021/07/01 00:33:41 [notice] 1#1: start worker process 38
+2021/07/01 00:35:10 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:35:12 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:35:13 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:35:17 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:35:19 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:35:21 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:35:34 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:35:35 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:35:36 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:35:38 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:35:53 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:36:00 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:36:01 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:36:04 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:36:05 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:36:07 [error] 31#31: *3 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:39:39 [error] 31#31: *4 open() "/usr/share/nginx/html/guide/deploy/ops" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /guide/deploy/ops HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:39:42 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:40:43 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 00:40:49 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:40:50 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:40:51 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:40:52 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/"
+2021/07/01 00:40:53 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/deploy/"
+2021/07/01 00:40:54 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/thanos/faq/"
+2021/07/01 00:40:55 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:40:57 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2021/07/01 00:40:57 [error] 31#31: *6 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/"
+2021/07/01 00:45:21 [error] 31#31: *12 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/deploy/"
+2021/07/01 00:45:22 [error] 31#31: *12 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/guide/faq/"
+2021/07/01 10:37:58 [notice] 1#1: using the "epoll" event method
+2021/07/01 10:37:58 [notice] 1#1: nginx/1.21.0
+2021/07/01 10:37:58 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/01 10:37:58 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/01 10:37:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/01 10:37:58 [notice] 1#1: start worker processes
+2021/07/01 10:37:58 [notice] 1#1: start worker process 24
+2021/07/01 10:37:58 [notice] 1#1: start worker process 25
+2021/07/01 10:37:58 [notice] 1#1: start worker process 26
+2021/07/01 10:37:58 [notice] 1#1: start worker process 27
+2021/07/01 10:37:58 [notice] 1#1: start worker process 28
+2021/07/01 10:37:58 [notice] 1#1: start worker process 29
+2021/07/01 10:37:58 [notice] 1#1: start worker process 30
+2021/07/01 10:37:58 [notice] 1#1: start worker process 31
+2021/07/01 16:24:44 [error] 24#24: *2 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "qq399268824.github.io"
+2021/07/01 16:24:45 [error] 24#24: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "qq399268824.github.io", referrer: "http://qq399268824.github.io/yao/"
+2021/07/01 16:24:47 [error] 24#24: *2 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "qq399268824.github.io"
+2021/07/01 16:25:05 [error] 24#24: *2 open() "/usr/share/nginx/html/yao/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.html HTTP/1.1", host: "qq399268824.github.io"
+2021/07/01 16:26:02 [error] 24#24: *2 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "qq399268824.github.io"
+2021/07/01 16:27:14 [error] 24#24: *4 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "qq399268824.github.io", referrer: "http://qq399268824.github.io/guide/"
+2021/07/01 17:30:31 [error] 25#25: *12 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 08:55:59 [error] 24#24: *19 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/02 08:56:02 [error] 24#24: *19 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/"
+2021/07/02 08:56:03 [error] 24#24: *19 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/02 13:28:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/02 13:28:46 [notice] 24#24: gracefully shutting down
+2021/07/02 13:28:46 [notice] 25#25: gracefully shutting down
+2021/07/02 13:28:46 [notice] 28#28: gracefully shutting down
+2021/07/02 13:28:46 [notice] 29#29: gracefully shutting down
+2021/07/02 13:28:46 [notice] 24#24: exiting
+2021/07/02 13:28:46 [notice] 27#27: gracefully shutting down
+2021/07/02 13:28:46 [notice] 30#30: gracefully shutting down
+2021/07/02 13:28:46 [notice] 31#31: gracefully shutting down
+2021/07/02 13:28:46 [notice] 26#26: gracefully shutting down
+2021/07/02 13:28:46 [notice] 29#29: exiting
+2021/07/02 13:28:46 [notice] 30#30: exiting
+2021/07/02 13:28:46 [notice] 28#28: exiting
+2021/07/02 13:28:46 [notice] 30#30: exit
+2021/07/02 13:28:46 [notice] 28#28: exit
+2021/07/02 13:28:46 [notice] 25#25: exiting
+2021/07/02 13:28:46 [notice] 29#29: exit
+2021/07/02 13:28:46 [notice] 26#26: exiting
+2021/07/02 13:28:46 [notice] 24#24: exit
+2021/07/02 13:28:46 [notice] 25#25: exit
+2021/07/02 13:28:46 [notice] 27#27: exiting
+2021/07/02 13:28:46 [notice] 31#31: exiting
+2021/07/02 13:28:46 [notice] 26#26: exit
+2021/07/02 13:28:46 [notice] 27#27: exit
+2021/07/02 13:28:46 [notice] 31#31: exit
+2021/07/02 13:28:46 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/07/02 13:28:46 [notice] 1#1: worker process 28 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/02 13:28:46 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/07/02 13:28:46 [notice] 1#1: worker process 24 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: worker process 25 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: worker process 26 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: worker process 27 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: worker process 29 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: worker process 30 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: worker process 31 exited with code 0
+2021/07/02 13:28:46 [notice] 1#1: exit
+2021/07/02 13:28:47 [notice] 1#1: using the "epoll" event method
+2021/07/02 13:28:47 [notice] 1#1: nginx/1.21.0
+2021/07/02 13:28:47 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/02 13:28:47 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/02 13:28:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/02 13:28:47 [notice] 1#1: start worker processes
+2021/07/02 13:28:47 [notice] 1#1: start worker process 31
+2021/07/02 13:28:47 [notice] 1#1: start worker process 32
+2021/07/02 13:28:47 [notice] 1#1: start worker process 33
+2021/07/02 13:28:47 [notice] 1#1: start worker process 34
+2021/07/02 13:28:47 [notice] 1#1: start worker process 35
+2021/07/02 13:28:47 [notice] 1#1: start worker process 36
+2021/07/02 13:28:47 [notice] 1#1: start worker process 37
+2021/07/02 13:28:47 [notice] 1#1: start worker process 38
+2021/07/02 13:28:50 [error] 31#31: *1 open() "/usr/share/nginx/html/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:50 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:50 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:50 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:50 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:51 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:51 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:51 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:51 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:51 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:28:59 [error] 32#32: *2 open() "/usr/share/nginx/html/yao" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao HTTP/1.1", host: "localhost"
+2021/07/02 13:28:59 [error] 32#32: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/yao"
+2021/07/02 13:29:05 [error] 32#32: *2 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "localhost"
+2021/07/02 13:31:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/02 13:31:28 [notice] 31#31: gracefully shutting down
+2021/07/02 13:31:28 [notice] 31#31: exiting
+2021/07/02 13:31:28 [notice] 32#32: gracefully shutting down
+2021/07/02 13:31:28 [notice] 33#33: gracefully shutting down
+2021/07/02 13:31:28 [notice] 35#35: gracefully shutting down
+2021/07/02 13:31:28 [notice] 34#34: gracefully shutting down
+2021/07/02 13:31:28 [notice] 36#36: gracefully shutting down
+2021/07/02 13:31:28 [notice] 37#37: gracefully shutting down
+2021/07/02 13:31:28 [notice] 38#38: gracefully shutting down
+2021/07/02 13:31:28 [notice] 31#31: exit
+2021/07/02 13:31:28 [notice] 32#32: exiting
+2021/07/02 13:31:28 [notice] 33#33: exiting
+2021/07/02 13:31:28 [notice] 35#35: exiting
+2021/07/02 13:31:28 [notice] 34#34: exiting
+2021/07/02 13:31:28 [notice] 36#36: exiting
+2021/07/02 13:31:28 [notice] 37#37: exiting
+2021/07/02 13:31:28 [notice] 38#38: exiting
+2021/07/02 13:31:28 [notice] 32#32: exit
+2021/07/02 13:31:28 [notice] 33#33: exit
+2021/07/02 13:31:28 [notice] 35#35: exit
+2021/07/02 13:31:28 [notice] 34#34: exit
+2021/07/02 13:31:28 [notice] 36#36: exit
+2021/07/02 13:31:28 [notice] 37#37: exit
+2021/07/02 13:31:28 [notice] 38#38: exit
+2021/07/02 13:31:28 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/07/02 13:31:28 [notice] 1#1: worker process 34 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: worker process 38 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/02 13:31:28 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/02 13:31:28 [notice] 1#1: worker process 31 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: worker process 33 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: worker process 36 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/02 13:31:28 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/07/02 13:31:28 [notice] 1#1: worker process 32 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: worker process 37 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/02 13:31:28 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/02 13:31:28 [notice] 1#1: worker process 35 exited with code 0
+2021/07/02 13:31:28 [notice] 1#1: exit
+2021/07/02 13:31:29 [notice] 1#1: using the "epoll" event method
+2021/07/02 13:31:29 [notice] 1#1: nginx/1.21.0
+2021/07/02 13:31:29 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/02 13:31:29 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/02 13:31:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/02 13:31:29 [notice] 1#1: start worker processes
+2021/07/02 13:31:29 [notice] 1#1: start worker process 32
+2021/07/02 13:31:29 [notice] 1#1: start worker process 33
+2021/07/02 13:31:29 [notice] 1#1: start worker process 34
+2021/07/02 13:31:29 [notice] 1#1: start worker process 35
+2021/07/02 13:31:29 [notice] 1#1: start worker process 36
+2021/07/02 13:31:29 [notice] 1#1: start worker process 37
+2021/07/02 13:31:29 [notice] 1#1: start worker process 38
+2021/07/02 13:31:29 [notice] 1#1: start worker process 39
+2021/07/02 13:31:31 [error] 32#32: *2 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "localhost"
+2021/07/02 13:31:35 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:35 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:36 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:36 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:36 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:37 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:37 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:37 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:37 [error] 32#32: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:46 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:46 [error] 32#32: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:47 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:47 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:47 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:47 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:47 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:48 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:48 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:48 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:31:48 [error] 32#32: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 13:34:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/02 13:34:34 [notice] 32#32: gracefully shutting down
+2021/07/02 13:34:34 [notice] 33#33: gracefully shutting down
+2021/07/02 13:34:34 [notice] 34#34: gracefully shutting down
+2021/07/02 13:34:34 [notice] 36#36: gracefully shutting down
+2021/07/02 13:34:34 [notice] 37#37: gracefully shutting down
+2021/07/02 13:34:34 [notice] 35#35: gracefully shutting down
+2021/07/02 13:34:34 [notice] 38#38: gracefully shutting down
+2021/07/02 13:34:34 [notice] 39#39: gracefully shutting down
+2021/07/02 13:34:34 [notice] 32#32: exiting
+2021/07/02 13:34:34 [notice] 33#33: exiting
+2021/07/02 13:34:34 [notice] 34#34: exiting
+2021/07/02 13:34:34 [notice] 36#36: exiting
+2021/07/02 13:34:34 [notice] 37#37: exiting
+2021/07/02 13:34:34 [notice] 35#35: exiting
+2021/07/02 13:34:34 [notice] 38#38: exiting
+2021/07/02 13:34:34 [notice] 39#39: exiting
+2021/07/02 13:34:34 [notice] 32#32: exit
+2021/07/02 13:34:34 [notice] 33#33: exit
+2021/07/02 13:34:34 [notice] 34#34: exit
+2021/07/02 13:34:34 [notice] 36#36: exit
+2021/07/02 13:34:34 [notice] 37#37: exit
+2021/07/02 13:34:34 [notice] 35#35: exit
+2021/07/02 13:34:34 [notice] 38#38: exit
+2021/07/02 13:34:34 [notice] 39#39: exit
+2021/07/02 13:34:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/02 13:34:34 [notice] 1#1: worker process 32 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 33 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 34 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 35 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 36 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 37 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 38 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: worker process 39 exited with code 0
+2021/07/02 13:34:34 [notice] 1#1: exit
+2021/07/02 13:34:35 [notice] 1#1: using the "epoll" event method
+2021/07/02 13:34:35 [notice] 1#1: nginx/1.21.0
+2021/07/02 13:34:35 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/02 13:34:35 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/02 13:34:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/02 13:34:35 [notice] 1#1: start worker processes
+2021/07/02 13:34:35 [notice] 1#1: start worker process 31
+2021/07/02 13:34:35 [notice] 1#1: start worker process 32
+2021/07/02 13:34:35 [notice] 1#1: start worker process 33
+2021/07/02 13:34:35 [notice] 1#1: start worker process 34
+2021/07/02 13:34:35 [notice] 1#1: start worker process 35
+2021/07/02 13:34:35 [notice] 1#1: start worker process 36
+2021/07/02 13:34:35 [notice] 1#1: start worker process 37
+2021/07/02 13:34:35 [notice] 1#1: start worker process 38
+2021/07/02 18:45:39 [notice] 1#1: using the "epoll" event method
+2021/07/02 18:45:39 [notice] 1#1: nginx/1.21.0
+2021/07/02 18:45:39 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/02 18:45:39 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/02 18:45:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/02 18:45:39 [notice] 1#1: start worker processes
+2021/07/02 18:45:39 [notice] 1#1: start worker process 25
+2021/07/02 18:45:39 [notice] 1#1: start worker process 26
+2021/07/02 18:45:39 [notice] 1#1: start worker process 27
+2021/07/02 18:45:39 [notice] 1#1: start worker process 28
+2021/07/02 18:45:39 [notice] 1#1: start worker process 29
+2021/07/02 18:45:39 [notice] 1#1: start worker process 30
+2021/07/02 18:45:39 [notice] 1#1: start worker process 31
+2021/07/02 18:45:39 [notice] 1#1: start worker process 32
+2021/07/02 18:49:38 [error] 26#26: *2 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:38 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 25#25: *1 open() "/usr/share/nginx/html/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:39 [error] 26#26: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:40 [error] 25#25: *1 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/02 18:49:41 [error] 25#25: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/02 18:49:43 [error] 25#25: *1 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "localhost"
+2021/07/03 22:46:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/03 22:46:16 [notice] 25#25: gracefully shutting down
+2021/07/03 22:46:16 [notice] 26#26: gracefully shutting down
+2021/07/03 22:46:16 [notice] 27#27: gracefully shutting down
+2021/07/03 22:46:16 [notice] 28#28: gracefully shutting down
+2021/07/03 22:46:16 [notice] 29#29: gracefully shutting down
+2021/07/03 22:46:16 [notice] 30#30: gracefully shutting down
+2021/07/03 22:46:16 [notice] 31#31: gracefully shutting down
+2021/07/03 22:46:16 [notice] 32#32: gracefully shutting down
+2021/07/03 22:46:16 [notice] 25#25: exiting
+2021/07/03 22:46:16 [notice] 26#26: exiting
+2021/07/03 22:46:16 [notice] 27#27: exiting
+2021/07/03 22:46:16 [notice] 28#28: exiting
+2021/07/03 22:46:16 [notice] 29#29: exiting
+2021/07/03 22:46:16 [notice] 30#30: exiting
+2021/07/03 22:46:16 [notice] 31#31: exiting
+2021/07/03 22:46:16 [notice] 32#32: exiting
+2021/07/03 22:46:16 [notice] 25#25: exit
+2021/07/03 22:46:16 [notice] 26#26: exit
+2021/07/03 22:46:16 [notice] 27#27: exit
+2021/07/03 22:46:16 [notice] 28#28: exit
+2021/07/03 22:46:16 [notice] 29#29: exit
+2021/07/03 22:46:16 [notice] 30#30: exit
+2021/07/03 22:46:16 [notice] 31#31: exit
+2021/07/03 22:46:16 [notice] 32#32: exit
+2021/07/03 22:46:16 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2021/07/03 22:46:16 [notice] 1#1: worker process 27 exited with code 0
+2021/07/03 22:46:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 22:46:17 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/07/03 22:46:17 [notice] 1#1: worker process 31 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: worker process 32 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 22:46:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/07/03 22:46:17 [notice] 1#1: worker process 26 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: worker process 29 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 22:46:17 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2021/07/03 22:46:17 [notice] 1#1: worker process 25 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: worker process 28 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: worker process 30 exited with code 0
+2021/07/03 22:46:17 [notice] 1#1: exit
+2021/07/03 22:48:13 [notice] 1#1: using the "epoll" event method
+2021/07/03 22:48:13 [notice] 1#1: nginx/1.21.0
+2021/07/03 22:48:13 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/03 22:48:13 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/03 22:48:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/03 22:48:13 [notice] 1#1: start worker processes
+2021/07/03 22:48:13 [notice] 1#1: start worker process 31
+2021/07/03 22:48:13 [notice] 1#1: start worker process 32
+2021/07/03 22:48:13 [notice] 1#1: start worker process 33
+2021/07/03 22:48:13 [notice] 1#1: start worker process 34
+2021/07/03 22:48:13 [notice] 1#1: start worker process 35
+2021/07/03 22:48:13 [notice] 1#1: start worker process 36
+2021/07/03 22:48:13 [notice] 1#1: start worker process 37
+2021/07/03 22:48:13 [notice] 1#1: start worker process 38
+2021/07/03 22:48:23 [error] 32#32: *2 open() "/usr/share/nginx/html/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/03 22:48:23 [error] 31#31: *1 open() "/usr/share/nginx/html/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/03 22:48:23 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/03 22:48:23 [error] 31#31: *4 open() "/usr/share/nginx/html/yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/zh/js/wowchemy.min.ad79b0e1881b7d5c337568e3d4228b75.js HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/03 22:48:23 [error] 31#31: *4 open() "/usr/share/nginx/html/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/03 22:48:23 [error] 32#32: *5 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/thanos/"
+2021/07/03 22:48:28 [error] 31#31: *4 "/usr/share/nginx/html/yao/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/ HTTP/1.1", host: "localhost"
+2021/07/03 22:48:28 [error] 31#31: *4 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:48:36 [error] 31#31: *4 open() "/usr/share/nginx/html/public" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "localhost"
+2021/07/03 22:48:39 [error] 31#31: *4 "/usr/share/nginx/html/public/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /public/ HTTP/1.1", host: "localhost"
+2021/07/03 22:48:42 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/03 22:48:44 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/"
+2021/07/03 22:48:46 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/deploy/"
+2021/07/03 22:48:48 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/faq/"
+2021/07/03 22:48:49 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/deploy/"
+2021/07/03 22:48:50 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/"
+2021/07/03 22:48:50 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/"
+2021/07/03 22:48:51 [error] 32#32: *5 open() "/usr/share/nginx/html/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/deploy/"
+2021/07/03 22:51:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/03 22:51:00 [notice] 31#31: gracefully shutting down
+2021/07/03 22:51:00 [notice] 32#32: gracefully shutting down
+2021/07/03 22:51:00 [notice] 33#33: gracefully shutting down
+2021/07/03 22:51:00 [notice] 34#34: gracefully shutting down
+2021/07/03 22:51:00 [notice] 35#35: gracefully shutting down
+2021/07/03 22:51:00 [notice] 36#36: gracefully shutting down
+2021/07/03 22:51:00 [notice] 37#37: gracefully shutting down
+2021/07/03 22:51:00 [notice] 38#38: gracefully shutting down
+2021/07/03 22:51:00 [notice] 31#31: exiting
+2021/07/03 22:51:00 [notice] 32#32: exiting
+2021/07/03 22:51:00 [notice] 33#33: exiting
+2021/07/03 22:51:00 [notice] 34#34: exiting
+2021/07/03 22:51:00 [notice] 35#35: exiting
+2021/07/03 22:51:00 [notice] 36#36: exiting
+2021/07/03 22:51:00 [notice] 37#37: exiting
+2021/07/03 22:51:00 [notice] 38#38: exiting
+2021/07/03 22:51:00 [notice] 31#31: exit
+2021/07/03 22:51:00 [notice] 32#32: exit
+2021/07/03 22:51:00 [notice] 33#33: exit
+2021/07/03 22:51:00 [notice] 34#34: exit
+2021/07/03 22:51:00 [notice] 35#35: exit
+2021/07/03 22:51:00 [notice] 36#36: exit
+2021/07/03 22:51:00 [notice] 37#37: exit
+2021/07/03 22:51:00 [notice] 38#38: exit
+2021/07/03 22:51:00 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/03 22:51:00 [notice] 1#1: worker process 31 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: worker process 35 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: worker process 36 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: worker process 38 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 22:51:00 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/07/03 22:51:00 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/03 22:51:00 [notice] 1#1: worker process 32 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: worker process 34 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: worker process 37 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 22:51:00 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/07/03 22:51:00 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/03 22:51:00 [notice] 1#1: worker process 33 exited with code 0
+2021/07/03 22:51:00 [notice] 1#1: exit
+2021/07/03 22:51:01 [notice] 1#1: using the "epoll" event method
+2021/07/03 22:51:01 [notice] 1#1: nginx/1.21.0
+2021/07/03 22:51:01 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/03 22:51:01 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/03 22:51:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/03 22:51:01 [notice] 1#1: start worker processes
+2021/07/03 22:51:01 [notice] 1#1: start worker process 31
+2021/07/03 22:51:01 [notice] 1#1: start worker process 32
+2021/07/03 22:51:01 [notice] 1#1: start worker process 33
+2021/07/03 22:51:01 [notice] 1#1: start worker process 34
+2021/07/03 22:51:01 [notice] 1#1: start worker process 35
+2021/07/03 22:51:01 [notice] 1#1: start worker process 36
+2021/07/03 22:51:01 [notice] 1#1: start worker process 37
+2021/07/03 22:51:01 [notice] 1#1: start worker process 38
+2021/07/03 22:51:06 [error] 31#31: *1 "/usr/share/nginx/html/guide/deploy/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /guide/deploy/ HTTP/1.1", host: "localhost", referrer: "http://localhost/guide/"
+2021/07/03 22:51:10 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:51:11 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 22:51:12 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 22:51:14 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 22:55:55 [error] 31#31: *4 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 22:58:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/03 22:58:41 [notice] 31#31: gracefully shutting down
+2021/07/03 22:58:41 [notice] 32#32: gracefully shutting down
+2021/07/03 22:58:41 [notice] 33#33: gracefully shutting down
+2021/07/03 22:58:41 [notice] 34#34: gracefully shutting down
+2021/07/03 22:58:41 [notice] 34#34: exiting
+2021/07/03 22:58:41 [notice] 35#35: gracefully shutting down
+2021/07/03 22:58:41 [notice] 38#38: gracefully shutting down
+2021/07/03 22:58:41 [notice] 36#36: gracefully shutting down
+2021/07/03 22:58:41 [notice] 37#37: gracefully shutting down
+2021/07/03 22:58:41 [notice] 31#31: exiting
+2021/07/03 22:58:41 [notice] 32#32: exiting
+2021/07/03 22:58:41 [notice] 33#33: exiting
+2021/07/03 22:58:41 [notice] 34#34: exit
+2021/07/03 22:58:41 [notice] 35#35: exiting
+2021/07/03 22:58:41 [notice] 38#38: exiting
+2021/07/03 22:58:41 [notice] 36#36: exiting
+2021/07/03 22:58:41 [notice] 37#37: exiting
+2021/07/03 22:58:41 [notice] 31#31: exit
+2021/07/03 22:58:41 [notice] 32#32: exit
+2021/07/03 22:58:41 [notice] 33#33: exit
+2021/07/03 22:58:41 [notice] 35#35: exit
+2021/07/03 22:58:41 [notice] 38#38: exit
+2021/07/03 22:58:41 [notice] 36#36: exit
+2021/07/03 22:58:41 [notice] 37#37: exit
+2021/07/03 22:58:41 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/03 22:58:41 [notice] 1#1: worker process 31 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: worker process 37 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: worker process 38 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 22:58:41 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/03 22:58:41 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/03 22:58:41 [notice] 1#1: worker process 32 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: worker process 33 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: worker process 34 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: worker process 35 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: worker process 36 exited with code 0
+2021/07/03 22:58:41 [notice] 1#1: exit
+2021/07/03 22:58:42 [notice] 1#1: using the "epoll" event method
+2021/07/03 22:58:42 [notice] 1#1: nginx/1.21.0
+2021/07/03 22:58:42 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/03 22:58:42 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/03 22:58:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/03 22:58:42 [notice] 1#1: start worker processes
+2021/07/03 22:58:42 [notice] 1#1: start worker process 31
+2021/07/03 22:58:42 [notice] 1#1: start worker process 32
+2021/07/03 22:58:42 [notice] 1#1: start worker process 33
+2021/07/03 22:58:42 [notice] 1#1: start worker process 34
+2021/07/03 22:58:42 [notice] 1#1: start worker process 35
+2021/07/03 22:58:42 [notice] 1#1: start worker process 36
+2021/07/03 22:58:42 [notice] 1#1: start worker process 37
+2021/07/03 22:58:42 [notice] 1#1: start worker process 38
+2021/07/03 22:58:56 [error] 31#31: *1 open() "/usr/share/nginx/html/Program Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:58:56 [error] 31#31: *2 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:06 [error] 31#31: *2 open() "/usr/share/nginx/html/Program Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:06 [error] 31#31: *1 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:09 [error] 31#31: *1 open() "/usr/share/nginx/html/Program Files/Git/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:19 [error] 31#31: *2 open() "/usr/share/nginx/html/Program Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:19 [error] 31#31: *3 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:27 [error] 31#31: *3 open() "/usr/share/nginx/html/Program Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:27 [error] 31#31: *2 open() "/usr/share/nginx/html/Program Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:27 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:27 [error] 31#31: *3 open() "/usr/share/nginx/html/Program Files/Git/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:38 [error] 31#31: *3 open() "/usr/share/nginx/html/Program Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:38 [error] 32#32: *5 open() "/usr/share/nginx/html/Program Files/Git/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:39 [error] 31#31: *3 open() "/usr/share/nginx/html/Program Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:39 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:41 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:41 [error] 31#31: *3 open() "/usr/share/nginx/html/Program Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:41 [error] 31#31: *2 open() "/usr/share/nginx/html/Program Files/Git/yao/media/book.svg" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/media/book.svg HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 22:59:41 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 23:00:34 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 23:00:34 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 23:00:37 [error] 31#31: *4 open() "/usr/share/nginx/html/Program Files/Git/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 23:01:41 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *7 open() "/usr/share/nginx/html/Program Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/css/wowchemy.e6f7b650e2d80724e28cce23c674926c.css HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *8 open() "/usr/share/nginx/html/Program Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/wowchemy-init.min.b8153d4570dcbb34350a2a846dba8c03.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *11 open() "/usr/share/nginx/html/Program Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *10 open() "/usr/share/nginx/html/Program Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *10 open() "/usr/share/nginx/html/Program Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *10 open() "/usr/share/nginx/html/Program Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/zh/js/wowchemy.min.ef5cc2926655c688e82481bc89e837cd.js HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *9 open() "/usr/share/nginx/html/Program Files/Git/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:01:59 [error] 31#31: *10 open() "/usr/share/nginx/html/Program Files/Git/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /Program%20Files/Git/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:02:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/03 23:02:56 [notice] 31#31: gracefully shutting down
+2021/07/03 23:02:56 [notice] 32#32: gracefully shutting down
+2021/07/03 23:02:56 [notice] 33#33: gracefully shutting down
+2021/07/03 23:02:56 [notice] 34#34: gracefully shutting down
+2021/07/03 23:02:56 [notice] 35#35: gracefully shutting down
+2021/07/03 23:02:56 [notice] 36#36: gracefully shutting down
+2021/07/03 23:02:56 [notice] 37#37: gracefully shutting down
+2021/07/03 23:02:56 [notice] 38#38: gracefully shutting down
+2021/07/03 23:02:56 [notice] 31#31: exiting
+2021/07/03 23:02:56 [notice] 32#32: exiting
+2021/07/03 23:02:56 [notice] 33#33: exiting
+2021/07/03 23:02:56 [notice] 34#34: exiting
+2021/07/03 23:02:56 [notice] 35#35: exiting
+2021/07/03 23:02:56 [notice] 36#36: exiting
+2021/07/03 23:02:56 [notice] 37#37: exiting
+2021/07/03 23:02:56 [notice] 38#38: exiting
+2021/07/03 23:02:56 [notice] 31#31: exit
+2021/07/03 23:02:56 [notice] 32#32: exit
+2021/07/03 23:02:56 [notice] 33#33: exit
+2021/07/03 23:02:56 [notice] 34#34: exit
+2021/07/03 23:02:56 [notice] 35#35: exit
+2021/07/03 23:02:56 [notice] 36#36: exit
+2021/07/03 23:02:56 [notice] 37#37: exit
+2021/07/03 23:02:56 [notice] 38#38: exit
+2021/07/03 23:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/07/03 23:02:56 [notice] 1#1: worker process 31 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: worker process 32 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: worker process 34 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: worker process 35 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: worker process 36 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 23:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/03 23:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/03 23:02:56 [notice] 1#1: worker process 38 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/03 23:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/03 23:02:56 [notice] 1#1: worker process 33 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: worker process 37 exited with code 0
+2021/07/03 23:02:56 [notice] 1#1: exit
+2021/07/03 23:02:57 [notice] 1#1: using the "epoll" event method
+2021/07/03 23:02:57 [notice] 1#1: nginx/1.21.0
+2021/07/03 23:02:57 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/07/03 23:02:57 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/03 23:02:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/03 23:02:57 [notice] 1#1: start worker processes
+2021/07/03 23:02:57 [notice] 1#1: start worker process 31
+2021/07/03 23:02:57 [notice] 1#1: start worker process 32
+2021/07/03 23:02:57 [notice] 1#1: start worker process 33
+2021/07/03 23:02:57 [notice] 1#1: start worker process 34
+2021/07/03 23:02:57 [notice] 1#1: start worker process 35
+2021/07/03 23:02:57 [notice] 1#1: start worker process 36
+2021/07/03 23:02:57 [notice] 1#1: start worker process 37
+2021/07/03 23:02:57 [notice] 1#1: start worker process 38
+2021/07/03 23:03:02 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:03:04 [error] 32#32: *1 open() "/usr/share/nginx/html/yao/guide/deploy/ops" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/guide/deploy/ops HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:03:05 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 23:03:05 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:03:06 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/thanos/"
+2021/07/03 23:03:07 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:03:07 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/thanos/"
+2021/07/03 23:03:08 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/thanos/"
+2021/07/03 23:03:09 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 23:03:09 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:03:09 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:03:09 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:03:09 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:03:10 [error] 31#31: *3 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/"
+2021/07/03 23:06:25 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:06:26 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:06:28 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 23:06:29 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:06:29 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:06:32 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:06:34 [error] 31#31: *6 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:09:53 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:10:10 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:10:12 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 23:10:12 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:10:13 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/"
+2021/07/03 23:10:14 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 23:10:24 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:10:33 [error] 31#31: *9 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/deploy/"
+2021/07/03 23:13:28 [error] 31#31: *13 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/03 23:14:12 [error] 31#31: *13 open() "/usr/share/nginx/html/yao/index.webmanifest" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /yao/index.webmanifest HTTP/1.1", host: "localhost", referrer: "http://localhost/yao/guide/faq/"
+2021/07/05 14:23:04 [error] 31#31: *14 open() "/usr/share/nginx/html/iplookup/iplookup.php" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /iplookup/iplookup.php?format=js HTTP/1.1", host: "int.dpool.sina.com.cn"
