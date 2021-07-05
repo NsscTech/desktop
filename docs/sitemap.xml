@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/desktop/guide/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/desktop/thanos/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/desktop/thanos/deploy/</loc>
+    <lastmod>2021-06-30T23:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/desktop/guide/develop/</loc>
+  </url><url>
+    <loc>/desktop/guide/deploy/</loc>
+  </url><url>
+    <loc>/desktop/thanos/faq/</loc>
+    <lastmod>2021-06-30T23:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/desktop/guide/faq/</loc>
+    <lastmod>2021-07-03T23:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/desktop/</loc>
+    <lastmod>2021-07-03T23:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/desktop/authors/</loc>
+  </url><url>
+    <loc>/desktop/categories/</loc>
+  </url><url>
+    <loc>/desktop/tags/</loc>
+  </url>
+</urlset>

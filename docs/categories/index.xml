@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | 运维文档</title>
+    <link>/desktop/categories/</link>
+      <atom:link href="/desktop/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language>
+    <image>
+      <url>/desktop/media/icon_hua3e6115cd62af0e898366e302324abcd_38067_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>/desktop/categories/</link>
+    </image>
+    
+  </channel>
+</rss>
